@@ -1,0 +1,54 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "PlayerInput",
+            "id": "611ba759-29ba-4739-80ec-234383cab5fd",
+            "actions": [
+                {
+                    "name": "Test",
+                    "type": "Button",
+                    "id": "d2914dc9-f6cb-4056-8522-c3b9608eea0c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TargetEntity",
+                    "type": "Button",
+                    "id": "4883b536-5140-45cd-9e22-ad54940a90fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "eaac2af1-32be-4350-b94d-47dec260b4e9",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Test",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4b1a3a29-f40f-484e-97ef-a497deebbd24",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TargetEntity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
