@@ -1,8 +1,9 @@
-﻿using NekinuSoft;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using Xenoblade_Remake.Item;
 using Xenoblade_Remake.Item.Effect;
 
-public class ItemDatabase : Component
+public class ItemDatabase : MonoBehaviour
 {
     //A static instance of ItemDatabase.
     public static ItemDatabase Instance;
@@ -10,11 +11,11 @@ public class ItemDatabase : Component
     //List of all items in the game
     private List<ItemData> items;
     
-    public override void Awake()
+    public void Awake()
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(Instance.Parent);
+            Destroy(Instance);
         }
     }
 
@@ -49,7 +50,7 @@ public class ItemDatabase : Component
             }
         }
 
-        Console.WriteLine($"Couldn't find item with the name: {itemName}!");
+        Debug.Log($"Couldn't find item with the name: {itemName}!");
 
         //return null if no items exists with the desired name
         return null;

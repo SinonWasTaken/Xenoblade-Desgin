@@ -1,12 +1,12 @@
-﻿using NekinuSoft;
+﻿using UnityEngine;
 
 namespace Xenoblade_Remake.ShopSystem
 {
-    public class ShopSystem : Component
+    public class ShopSystem : MonoBehaviour 
     {
         private ShopCategory[] categories;
 
-        public override void Awake()
+        public void Awake()
         {
             categories = new ShopCategory[4];
         }

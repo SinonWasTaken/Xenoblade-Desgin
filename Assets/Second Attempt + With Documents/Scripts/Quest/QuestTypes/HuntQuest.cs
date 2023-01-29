@@ -1,4 +1,6 @@
-﻿namespace Xenoblade_Remake.Quest
+﻿using System.Collections.Generic;
+
+namespace Xenoblade_Remake.Quest
 {
     public class HuntQuest : QuestObjective
     {

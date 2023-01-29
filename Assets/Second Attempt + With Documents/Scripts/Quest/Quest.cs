@@ -1,4 +1,5 @@
-﻿using Xenoblade_Remake.Entity;
+﻿using System.Collections.Generic;
+using Xenoblade_Remake.Entity;
 
 namespace Xenoblade_Remake.Quest
 {

@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.Enemy;
-
-public enum EnemyAttackType
+﻿public enum EnemyAttackType
 {
     AttackOnSight,
     AttackWhenHit

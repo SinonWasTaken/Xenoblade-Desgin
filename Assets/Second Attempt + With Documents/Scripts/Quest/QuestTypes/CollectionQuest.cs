@@ -1,7 +1,6 @@
-﻿using Xenoblade_Remake.Inventory.Item;
+﻿using System.Collections.Generic;
+using Xenoblade_Remake.Inventory.Item;
 using Xenoblade_Remake.Item;
-
-namespace Xenoblade_Remake.Quest.QuestTypes;
 
 public class CollectionQuest : QuestObjective
 {

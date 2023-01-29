@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.Cooking;
-
-public class CookingEffect
+﻿public class CookingEffect
 {
     public enum FoodEffect
     {

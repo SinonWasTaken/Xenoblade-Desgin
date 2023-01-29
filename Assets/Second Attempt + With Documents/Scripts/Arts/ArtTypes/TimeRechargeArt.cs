@@ -1,4 +1,4 @@
-﻿public class TimeRechargeArt : Art
+﻿public class TimeRechargeArt : Art2
 {
     private float artGainedPerSecond;
 

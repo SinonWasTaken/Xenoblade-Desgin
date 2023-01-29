@@ -1,4 +1,4 @@
-﻿namespace Xenoblade_Remake.Crafting.Gem;
+﻿using System.Collections.Generic;
 
 public class GemRecipe
 {

@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.ShopSystem;
-
-public enum ShopPages
+﻿public enum ShopPages
 {
     All,
     Collectible,

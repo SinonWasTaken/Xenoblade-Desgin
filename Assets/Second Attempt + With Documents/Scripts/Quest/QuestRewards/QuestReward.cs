@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.Quest;
-
-public interface QuestReward
+﻿public interface QuestReward
 {
     void GiveReward();
 }

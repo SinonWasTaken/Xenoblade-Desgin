@@ -1,9 +1,8 @@
-﻿using NekinuSoft;
-using Xenoblade_Remake.Scripts;
+﻿using UnityEngine;
 
 namespace Xenoblade_Remake.Entity
 {
-    public class ShopEntity : Component, InteractiveEntity
+    public class ShopEntity : MonoBehaviour, InteractiveEntity
     {
         private ShopSystem.ShopSystem shop;
         

@@ -1,18 +1,17 @@
-﻿using NekinuSoft;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
-namespace Xenoblade_Remake.Cooking;
-
-public class CookingRecipeDatabase : Component
+public class CookingRecipeDatabase : MonoBehaviour
 {
     private static CookingRecipeDatabase Instance;
 
     private List<CookingRecipe> recipes;
     
-    public override void Awake()
+    public void Awake()
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(Instance.Parent);
+            Destroy(Instance.gameObject);
         }
 
         Instance = this;

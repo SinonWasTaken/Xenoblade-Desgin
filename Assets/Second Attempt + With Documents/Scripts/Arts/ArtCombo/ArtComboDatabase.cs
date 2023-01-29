@@ -1,4 +1,6 @@
-﻿public class ArtComboDatabase
+﻿using System.Collections.Generic;
+
+public class ArtComboDatabase
 {
     private static ArtComboDatabase Instance;
 

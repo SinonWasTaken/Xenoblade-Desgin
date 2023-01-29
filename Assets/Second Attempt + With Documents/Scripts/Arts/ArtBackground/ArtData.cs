@@ -1,4 +1,4 @@
-﻿public class ArtData
+﻿public class ArtData2
 {
     public enum ArtType
     {
@@ -21,7 +21,7 @@
 
     private ArtType artType;
 
-    public ArtData(string artName, string artDescription, int artBaseDamage, float maxArtCharge, ArtCondition artCondition, ArtEffect artEffect, ArtEffectTarget artTarget, ArtType artType)
+    public ArtData2(string artName, string artDescription, int artBaseDamage, float maxArtCharge, ArtCondition artCondition, ArtEffect artEffect, ArtEffectTarget artTarget, ArtType artType)
     {
         this.artName = artName;
         this.artDescription = artDescription;

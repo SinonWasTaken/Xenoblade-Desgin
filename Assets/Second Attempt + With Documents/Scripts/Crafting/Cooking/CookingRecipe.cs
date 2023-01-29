@@ -1,8 +1,6 @@
-﻿using Xenoblade_Remake.Crafting;
+﻿using System.Collections.Generic;
 
-namespace Xenoblade_Remake.Cooking;
-
-public class CookingRecipe : Crafting.Crafting
+public class CookingRecipe : Crafting
 {
     private string recipeName;
     private List<RequiredItem> requiredItems;
@@ -23,6 +21,6 @@ public class CookingRecipe : Crafting.Crafting
 
     public void DoCrafting()
     {
-        throw new NotImplementedException();
+        
     }
 }

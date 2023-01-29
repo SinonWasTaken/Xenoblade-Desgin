@@ -1,8 +1,4 @@
-﻿using Xenoblade_Remake.PlayerClass;
-
-namespace Xenoblade_Remake.Scripts;
-
-public interface InteractiveEntity
+﻿public interface InteractiveEntity
 {
-    void Interact(PlayerClass.Player player);
+    void Interact(Xenoblade_Remake.PlayerClass.Player player);
 }

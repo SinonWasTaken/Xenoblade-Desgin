@@ -1,4 +1,7 @@
-﻿namespace Xenoblade_Remake.Item
+﻿using System;
+using System.Collections.Generic;
+
+namespace Xenoblade_Remake.Item
 {
     public class DropTable
     {

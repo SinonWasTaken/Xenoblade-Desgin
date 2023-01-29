@@ -1,9 +1,10 @@
-﻿using NekinuSoft;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using Xenoblade_Remake.Item;
 
 namespace Xenoblade_Remake.Inventory.Item
 {
-    public class PlayerInventory : Component
+    public class PlayerInventory : MonoBehaviour
     {
         public const int maxItemSpace = 999;
         
@@ -11,11 +12,11 @@ namespace Xenoblade_Remake.Inventory.Item
         
         public static PlayerInventory Instance;
         
-        public override void Awake()
+        public void Awake()
         {
             if (Instance != null && Instance != this)
             {
-                Destroy(Instance.Parent);
+                Destroy(Instance.gameObject);
             }
 
             Instance = this;

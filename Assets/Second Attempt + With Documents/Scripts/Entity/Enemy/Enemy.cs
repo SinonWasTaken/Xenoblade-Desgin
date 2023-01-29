@@ -1,11 +1,12 @@
-﻿using Xenoblade_Remake.Item;
+﻿using System.Collections.Generic;
+using Xenoblade_Remake.Item;
 using Xenoblade_Remake.PlayerClass;
 using Xenoblade_Remake.Stats;
 
 namespace Xenoblade_Remake.Enemy
 {
 
-    public class Enemy : BattleEntity
+    public class Enemy : BattleEntity2
     {
         private EnemyAttackType attackType;
         private EnemyMoveType moveType;

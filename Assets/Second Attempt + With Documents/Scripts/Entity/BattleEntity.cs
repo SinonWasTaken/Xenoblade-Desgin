@@ -1,8 +1,8 @@
-﻿using Xenoblade_Remake.Entity;
+﻿using System;
+using Xenoblade_Remake.Entity;
+using Xenoblade_Remake.Stats;
 
-namespace Xenoblade_Remake.Stats;
-
-public class BattleEntity : WorldEntity
+public class BattleEntity2 : WorldEntity
 {
     public const int MaxLevel = 99;
     
@@ -13,7 +13,7 @@ public class BattleEntity : WorldEntity
 
     private ArtComboHandler handler;
 
-    public BattleEntity(string entityName, int currentLevel, int currentHealth, BattleStats stats) : base(entityName)
+    public BattleEntity2(string entityName, int currentLevel, int currentHealth, BattleStats stats) : base(entityName)
     {
         this.currentLevel = currentLevel;
         this.currentHealth = currentHealth;

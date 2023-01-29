@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.Crafting;
-
-public class RequiredItem
+﻿public class RequiredItem
 {
     private string itemName;
     private int requiredAmount;

@@ -1,4 +1,6 @@
-﻿public class ArtCombo : ArtComboData
+﻿using System;
+
+public class ArtCombo : ArtComboData
 {
     private float currentComboDuration;
 

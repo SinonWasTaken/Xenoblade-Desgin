@@ -1,16 +1,14 @@
-﻿using NekinuSoft;
-using NekinuSoft.UI;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
-namespace Xenoblade_Remake.Crafting.Gem;
-
-public class GemCraftingSystem : Component
+public class GemCraftingSystem : MonoBehaviour
 {
     private static GemCraftingSystem Instance;
     //private Player player;
     private List<GemRecipe> craftableGems;
     private GemRecipe selectedGemRecipe;
     
-    public override void Awake()
+    public void Awake()
     {
         loadGemRecpies();
     }
@@ -28,14 +26,14 @@ public class GemCraftingSystem : Component
         
     }
 
-    public void OnGemSelected(Button button)
+    public void OnGemSelected(/*Button button*/)
     {
-        for (int i = 0; i < craftableGems.Count; i++)
+        /*for (int i = 0; i < craftableGems.Count; i++)
         {
             if (craftableGems[i].CraftedGemName == button.Parent.EntityName)
             {
                 selectedGemRecipe = craftableGems[i];
             }
-        }
+        }*/
     }
 }

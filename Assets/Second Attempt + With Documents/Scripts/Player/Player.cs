@@ -1,9 +1,10 @@
-﻿using NekinuSoft;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using Xenoblade_Remake.Inventory.Item;
 
 namespace Xenoblade_Remake.PlayerClass
 {
-    public class Player : Component
+    public class Player : MonoBehaviour
     {
         public static Player Instance;
 
@@ -16,11 +17,11 @@ namespace Xenoblade_Remake.PlayerClass
         private PlayerPartyMember playerPartyMember;
         private List<PlayerPartyMember> partyMembers;
 
-        public override void Awake()
+        public void Awake()
         {
             if (Instance != null && Instance != this)
             {
-                Destroy(Instance.Parent);
+                Destroy(Instance.gameObject);
             }
 
             Instance = this;

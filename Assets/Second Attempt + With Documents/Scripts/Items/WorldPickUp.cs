@@ -1,6 +1,5 @@
-﻿using Xenoblade_Remake.Item;
-
-namespace Xenoblade_Remake.Scripts.Items;
+﻿using System;
+using Xenoblade_Remake.Item;
 
 public class WorldPickUp
 {

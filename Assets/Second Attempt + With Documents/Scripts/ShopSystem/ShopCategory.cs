@@ -1,6 +1,5 @@
-﻿using Xenoblade_Remake.Item;
-
-namespace Xenoblade_Remake.ShopSystem;
+﻿using System.Collections.Generic;
+using Xenoblade_Remake.Item;
 
 public class ShopCategory
 {

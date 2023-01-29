@@ -1,4 +1,4 @@
-﻿public class DamageRechargeArt : Art
+﻿public class DamageRechargeArt : Art2
 {
     private float chargeGrantedOnHit;
 

@@ -1,22 +1,22 @@
-﻿namespace Xenoblade_Remake.Scripts.BattleSystem;
+﻿using System.Collections.Generic;
 
-public class BattleSystem
+public class BattleSystem2
 {
-    private List<Enemy.Enemy> enemiesInBattle;
-    private Enemy.Enemy targetedEnemy;
+    private List<Enemy> enemiesInBattle;
+    private Enemy targetedEnemy;
     private bool hasStarted;
 
-    public void StartBattle(PlayerClass.Player player, Enemy.Enemy enemy)
+    public void StartBattle(Player player, Enemy enemy)
     {
         
     }
 
-    public void AddEnemy(Enemy.Enemy enemy)
+    public void AddEnemy(Enemy enemy)
     {
         
     }
 
-    public void RemoveEntity(Enemy.Enemy enemy)
+    public void RemoveEntity(Enemy enemy)
     {
         
     }

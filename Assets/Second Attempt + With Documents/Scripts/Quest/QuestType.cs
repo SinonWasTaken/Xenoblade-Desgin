@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.Quest;
-
-public enum QuestType
+﻿public enum QuestType
 {
     Hero,
     Collection,

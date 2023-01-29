@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.Quest;
-
-public class QuestExpReward : QuestReward
+﻿public class QuestExpReward : QuestReward
 {
     private int expToGive;
 
@@ -11,6 +9,6 @@ public class QuestExpReward : QuestReward
 
     public void GiveReward()
     {
-        throw new NotImplementedException();
+        
     }
 }

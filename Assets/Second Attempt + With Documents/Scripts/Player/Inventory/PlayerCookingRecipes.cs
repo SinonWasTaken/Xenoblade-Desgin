@@ -1,23 +1,21 @@
-﻿using NekinuSoft;
-using NekinuSoft.UI;
-using Xenoblade_Remake.Cooking;
-using Xenoblade_Remake.PlayerClass;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace Xenoblade_Remake.Inventory.Cooking
 {
-    public class UnlockedCookingRecipes : Component
+    public class UnlockedCookingRecipes : MonoBehaviour
     {
         private Player player;
         private List<CookingRecipe> unlockedCookingRecipes;
         private CookingRecipe selectedCookingRecipe;
-        private Button craftButton;
+        //private Button craftButton;
 
-        public override void Awake()
+        public void Awake()
         {
-            if (craftButton != null)
+            /*if (craftButton != null)
                 craftButton.Set_Active(false);
 
-            unlockedCookingRecipes = new List<CookingRecipe>();
+            unlockedCookingRecipes = new List<CookingRecipe>();*/
         }
 
         public void EnableCookingUI(bool value)
@@ -30,15 +28,15 @@ namespace Xenoblade_Remake.Inventory.Cooking
             unlockedCookingRecipes.Add(recipe);
         }
 
-        public void OnRecipeUISelected(Button button)
+        public void OnRecipeUISelected(/*Button button*/)
         {
-            for (int i = 0; i < unlockedCookingRecipes.Count; i++)
+            /*for (int i = 0; i < unlockedCookingRecipes.Count; i++)
             {
                 if (unlockedCookingRecipes[i].RecipeName == button.Parent.EntityName)
                 {
                     selectedCookingRecipe = unlockedCookingRecipes[i];
                 }
-            }
+            }*/
             //called when a recipe is selected in the menu. will give the rest of the ui information on the crafting recipe such as items needed and the effect
             //fill in information
         }

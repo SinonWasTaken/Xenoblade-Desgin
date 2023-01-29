@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638100392637200045
-    m_Hash: 2534899107
+      ticks: 638106287539916416
+    m_Hash: 1982347625
   m_LockFileStatus:
     m_FilePath: D:/Unity Projects/Xenoblade Remake/Mascho-Seth-Xenoblade-Desgin/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638100394051228517
-    m_Hash: 908975571
+      ticks: 638106288722101161
+    m_Hash: 3752464803
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Unity Projects/Xenoblade Remake/Mascho-Seth-Xenoblade-Desgin/Packages
-m_EditorVersion: 2021.3.16f1 (4016570cf34f)
+m_EditorVersion: 2021.3.17f1 (3e8111cac19d)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@2.8.9
   testable: 0
@@ -256,6 +256,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -268,6 +269,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -277,7 +279,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -363,7 +365,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.16
+    version: 2.0.17
   - name: com.unity.test-framework
     version: 1.1.31
   - name: com.unity.ext.nunit
@@ -373,7 +375,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.16
+    version: 3.0.18
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -406,12 +408,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.16
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.18
   source: 1
-  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.ide.rider@3.0.16
+  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -461,10 +463,10 @@ m_ResolvedPackages:
     - 3.0.15
     - 3.0.16
     - 3.0.17
+    - 3.0.18
     compatible:
-    - 3.0.16
-    - 3.0.17
-    verified: 3.0.17
+    - 3.0.18
+    verified: 3.0.18
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -482,23 +484,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638088746970000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
-    version: 3.0.16
+    version: 3.0.18
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+- packageId: com.unity.ide.visualstudio@2.0.17
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.17
   source: 1
-  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -536,7 +538,6 @@ m_ResolvedPackages:
     - 2.0.16
     - 2.0.17
     compatible:
-    - 2.0.16
     - 2.0.17
     verified: 2.0.17
   dependencies:
@@ -562,16 +563,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638059987360000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 1f126893bfb18ea9661fb15771613e841467073c
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.17
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
@@ -739,12 +740,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.4.4
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.8
+- packageId: com.unity.render-pipelines.universal@12.1.9
   testable: 0
   isDirectDependency: 1
-  version: 12.1.8
+  version: 12.1.9
   source: 2
-  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.render-pipelines.universal@12.1.8
+  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.render-pipelines.universal@12.1.9
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -807,26 +808,26 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.9
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.9
+    verified: 12.1.9
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
     version: 1.8.2
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.9
   - name: com.unity.shadergraph
-    version: 12.1.8
+    version: 12.1.9
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
     version: 1.8.2
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.9
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -838,7 +839,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.8
+    version: 12.1.9
   - name: com.unity.searcher
     version: 4.9.1
   keywords:
@@ -867,7 +868,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
+    version: 12.1.9
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
@@ -1359,12 +1360,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.7.8
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.8
+  version: 1.8.0
   source: 1
-  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.visualscripting@1.7.8
+  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1408,9 +1409,8 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     compatible:
-    - 1.7.8
     - 1.8.0
-    verified: 1.7.8
+    verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1436,16 +1436,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637878097330000000
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.7.8
+    version: 1.8.0
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3529,12 +3529,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.6.6
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.8
+- packageId: com.unity.render-pipelines.core@12.1.9
   testable: 0
   isDirectDependency: 0
-  version: 12.1.8
+  version: 12.1.9
   source: 2
-  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.render-pipelines.core@12.1.8
+  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.render-pipelines.core@12.1.9
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3653,10 +3653,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.9
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.9
+    verified: 12.1.9
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3695,14 +3695,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
+    version: 12.1.9
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.8
+- packageId: com.unity.shadergraph@12.1.9
   testable: 0
   isDirectDependency: 0
-  version: 12.1.8
+  version: 12.1.9
   source: 2
-  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.shadergraph@12.1.8
+  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.shadergraph@12.1.9
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3818,18 +3818,18 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.9
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.9
+    verified: 12.1.9
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.9
   - name: com.unity.searcher
     version: 4.9.1
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.9
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3862,7 +3862,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
+    version: 12.1.9
     nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
@@ -4083,12 +4083,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.2
     nextVersion: 
-- packageId: com.unity.services.core@1.6.0
+- packageId: com.unity.services.core@1.7.0
   testable: 0
   isDirectDependency: 0
-  version: 1.6.0
+  version: 1.7.0
   source: 1
-  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.services.core@1.6.0
+  resolvedPath: D:\Unity Projects\Xenoblade Remake\Mascho-Seth-Xenoblade-Desgin\Library\PackageCache\com.unity.services.core@1.7.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -4126,9 +4126,8 @@ m_ResolvedPackages:
     - 1.6.0
     - 1.7.0
     compatible:
-    - 1.6.0
     - 1.7.0
-    verified: 1.6.0
+    verified: 1.7.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -4154,16 +4153,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638030857680000000
+  datePublishedTicks: 638059514260000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 815a0c96703c69956fde4fc798e35dd8d0cc3af1
+    revision: 08a8fcaac21b4eebbb92708e367ad3a276b6f5a6
     path: 
   unityLifecycle:
-    version: 1.6.0
+    version: 1.7.0
     nextVersion: 
 - packageId: com.unity.searcher@4.9.1
   testable: 0

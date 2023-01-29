@@ -1,7 +1,4 @@
 ﻿using Xenoblade_Remake.Entity;
-using Xenoblade_Remake.Scripts;
-
-namespace Xenoblade_Remake;
 
 public class EtherDeposit : WorldEntity, InteractiveEntity
 {
@@ -11,9 +8,9 @@ public class EtherDeposit : WorldEntity, InteractiveEntity
     {
     }
 
-    public void Interact(PlayerClass.Player player)
+    public void Interact(Xenoblade_Remake.PlayerClass.Player player)
     {
-        player.GiveEther(etherToGive);
+        throw new System.NotImplementedException();
     }
     //Create a method that calls Interact when the player interacts with this Deposit
 }

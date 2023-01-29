@@ -1,13 +1,14 @@
-﻿using NekinuSoft;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace Xenoblade_Remake.PlayerClass
 {
-    public class PlayerQuestHandler : Component
+    public class PlayerQuestHandler : MonoBehaviour
     {
         private List<Quest.Quest> unlockedQuests;
         private List<Quest.Quest> completedQuests;
 
-        public override void Awake()
+        public void Awake()
         {
             unlockedQuests = new List<Quest.Quest>();
             completedQuests = new List<Quest.Quest>();

@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.Quest;
-
-public abstract class QuestObjective
+﻿public abstract class QuestObjective
 {
     //the id of the objective
     private int questObjectiveID;

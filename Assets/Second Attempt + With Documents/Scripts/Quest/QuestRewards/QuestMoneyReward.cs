@@ -1,6 +1,4 @@
-﻿namespace Xenoblade_Remake.Quest;
-
-public class QuestMoneyReward : QuestReward
+﻿public class QuestMoneyReward : QuestReward
 {
     private int moneyToGive;
     
