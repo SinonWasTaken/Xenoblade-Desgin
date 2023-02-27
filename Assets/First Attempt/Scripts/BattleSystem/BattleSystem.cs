@@ -39,7 +39,7 @@ public class BattleSystem : MonoBehaviour
         enemyInfoPanel.SetActive(true);
 
         battleStarted = true;
-        Debug.Log(calculateExpEarned(player, entity));
+        Debug.Log($"exp to be earned when defeating enemy: {calculateExpEarned(player, entity)}");
     }
 
     public void AddEnemy(BattleEntity enemy)
@@ -50,6 +50,7 @@ public class BattleSystem : MonoBehaviour
 
     public void RemoveEnemy(BattleEntity enemy)
     {
+        //Called when an enemy dies, or it loses all agro and leaves
         for (int i = 0; i < enemies.Count; i++)
         {
             if (enemy == enemies[i])
@@ -61,8 +62,10 @@ public class BattleSystem : MonoBehaviour
 
     public void SetTarget(BattleEntity entity)
     {
+        //sets the players target
         targetedEnemy = entity;
         
+        //displays the target information
         DisplayTargetEnemyInfo(targetedEnemy);
     }
     
@@ -73,6 +76,7 @@ public class BattleSystem : MonoBehaviour
         targetedEnemy = null;
     }
 
+    //Called when the battle ends. resets the battle
     public void EndBattle()
     {
         targetedEnemy = null;
@@ -82,12 +86,14 @@ public class BattleSystem : MonoBehaviour
         battleStarted = false;
     }
     
+    //Called when an entity is attacked
     public void DoDamage(BattleEntity attacker, BattleEntity defender/*, Skill skill*/)
     {
         if (attacker != null)
         {
             if (doesMoveHit(attacker, defender))
             {
+                //damage calculations
                 float damage = 0;
                 float skillDamage = 10;
 
@@ -95,8 +101,10 @@ public class BattleSystem : MonoBehaviour
 
                 bool isPhysical = false;
 
+                //for debug purposes
                 isPhysical = true;
 
+                //random damage value between the attackers 2 damage values
                 damage = Random.Range(attacker.Stats.PhysicalAttackValues[0], attacker.Stats.PhysicalAttackValues[1]);
                 resistance *= defender.Stats.PhysicalResistance;
 
@@ -109,7 +117,9 @@ public class BattleSystem : MonoBehaviour
 
                 int finalDamage = (int) ((damage * weaponAttachments) * (skillDamage / 10f) * weak *
                                          (defenderDefense / resistance) / 100);
-                
+
+                Debug.Log($"Damage done to {defender.EntityName}: {finalDamage}");
+
                 bool dead = defender.TakeDamage(attacker, finalDamage);
 
                 if (!dead)
